@@ -1,0 +1,91 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    background: #fff;
+    font-size: .8em;
+  }
+
+  header {
+      padding: 1.5em 0em;
+  }
+
+  p {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+  }
+
+  span {
+      padding: 0px 15px;
+      font-weight: 100;
+  }
+
+  .mainNav ul, .footerNav ul, .info ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  .mainNav a, .footerNav a, .info a, .phone {
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-weight: 900;
+  }
+
+  .banner {
+      margin-bottom: 60px;
+  }
+
+  #portfolio {
+      margin-bottom: 40px;
+      text-transform: uppercase;
+  }
+  
+
+  .content {
+      margin: 0;
+      padding-left: 1em;
+      padding-right: 1em;
+  }
+  .content h2 {
+      margin: 30px 0px 15px 0px;
+  }
+  .content p {
+      padding-bottom: 30px;
+  }
+  .content img, .banner img {
+      width: 100%
+  }
+ 
+  .info {
+      padding-top: 20px;
+  }
+  .myName {
+    float: left;
+}
+
+  .backToTop {
+    float: right;
+}
+
+  .footerNav {
+      padding-top: 30px;
+      padding-bottom: 50px;
+  }
+
+  .backToTop, #contact {
+      text-transform: uppercase;
+  }
+  .hidden {
+      display: none;
+  }
+
+  
