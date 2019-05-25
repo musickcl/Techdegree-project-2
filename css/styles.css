@@ -1,11 +1,11 @@
 /* Global Layout Set-up */
 * { 
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
     
   body {
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #222;
@@ -32,6 +32,10 @@
       font-weight: 100;
   }
 
+  .name {
+      padding-bottom: 15px;
+  }
+
   .mainNav ul, .footerNav ul, .info ul {
     padding: 0;
     list-style: none;
@@ -56,7 +60,7 @@
   
 
   .content {
-      margin: 0;
+      margin: 0 auto;
       padding-left: 1em;
       padding-right: 1em;
   }
@@ -94,4 +98,37 @@
       display: none;
   }
 
-  
+  .clearfix {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Media queries */
+
+@media (min-width: 321px) {
+    .content {
+        width: 100%;
+    }
+    .col {
+        float: left;
+        width: 49%;
+        padding: 0px 5px;
+    }
+    .banner p {
+        float: left;
+        
+      }
+
+    .me {
+        float: right;
+        width: 40%;
+    }
+}
+@media (min-width 768px) {
+
+}
+
+@media (min-width 1024px) {
+
+}
